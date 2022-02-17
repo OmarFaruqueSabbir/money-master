@@ -32,7 +32,7 @@
                             <p class="pt-2 text-base font-semibold">Income :</p>
                         </div>
                         <div class="flex flex-col ">
-                            <input class="p-2 bg-[#DCDCDC]" type="text" value="" >
+                            <input id="income-input" class="p-2 bg-[#DCDCDC]" type="text" value="" >
                         </div>
                     </div>
 
@@ -46,14 +46,14 @@
                             <p class=" text-base font-semibold text-right">Clothes :</p>
                         </div>
                         <div class="flex flex-col">
-                            <input class="p-2 mb-4 bg-[#DCDCDC]" type="text" >
-                            <input class="p-2 mb-4 bg-[#DCDCDC]" type="text" >
-                            <input class="p-2 bg-[#DCDCDC]" type="text" >
+                            <input id="food-input" class="p-2 mb-4 bg-[#DCDCDC]" type="text" >
+                            <input id="rent-input" class="p-2 mb-4 bg-[#DCDCDC]" type="text" >
+                            <input id="clothes-input" class="p-2 bg-[#DCDCDC]" type="text" >
                         </div>
                     </div>
 
                     <div class="pl-16">
-                        <button class=" text-white font-semibold bg-[#59A5FF] py-2 px-10 rounded-lg">
+                        <button id="expense-btn" class=" text-white font-semibold bg-[#59A5FF] py-2 px-10 rounded-lg">
                             Calculate</button>
                     </div>
 
@@ -63,7 +63,7 @@
                             <h3 class="text-lg">Total Expenses:</h3>
                          </div>
                          <div>
-                            <h4 class="text-lg">$ <span id="withdraw-total">00</span></h4>
+                            <h4 class="text-lg">$ <span id="expense-total">00</span></h4>
                          </div>
                      </div>  
 
@@ -72,7 +72,7 @@
                             <h3 class="text-lg">Balance:</h3>
                          </div>
                          <div>
-                            <h4 class="text-lg">$ <span id="withdraw-total">00</span></h4>
+                            <h4 class="text-lg">$ <span id="balance-total">00</span></h4>
                          </div>
                      </div>  
 
@@ -116,6 +116,7 @@
               </div>
         </section>
     </main>
+    <script src="index.js"></script>
 
     
 </body>
