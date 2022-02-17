@@ -14,10 +14,106 @@
     </header>
     <!-- main section -->
     <main class="container mx-auto">
-        <section class="sm:flex">
-            <div>
+        <section class="sm:flex justify-between">
+            <!-- image section -->
+            <div class="sm:h-full">
                 <img class="" src="images/money.jpeg" alt="">
             </div>
+
+            <!-- Calculation section -->
+
+            <div class=" pt-12 bg-[#F8F8F8] lg:w-2/5 sm:w-full sm:h-full flex flex-col items-center">
+                <div class="space-y-6">
+                    <h1 class="text-xl text-center font-bold">
+                        Income
+                    </h1>
+                    <div class="flex">
+                        <div class="flex flex-col justify-around mr-3">
+                            <p class="pt-2 text-base font-semibold">Income :</p>
+                        </div>
+                        <div class="flex flex-col ">
+                            <input class="p-2 bg-[#DCDCDC]" type="text" value="" >
+                        </div>
+                    </div>
+
+                    <h1 class="text-xl text-center font-bold">
+                        Expenses
+                    </h1>
+                    <div class="flex">
+                        <div class="flex flex-col justify-around mr-3">
+                            <p class=" text-base font-semibold text-right">Food :</p>
+                            <p class="text-base font-semibold text-right">Rent :</p>
+                            <p class=" text-base font-semibold text-right">Clothes :</p>
+                        </div>
+                        <div class="flex flex-col">
+                            <input class="p-2 mb-4 bg-[#DCDCDC]" type="text" >
+                            <input class="p-2 mb-4 bg-[#DCDCDC]" type="text" >
+                            <input class="p-2 bg-[#DCDCDC]" type="text" >
+                        </div>
+                    </div>
+
+                    <div class="pl-16">
+                        <button class=" text-white font-semibold bg-[#59A5FF] py-2 px-10 rounded-lg">
+                            Calculate</button>
+                    </div>
+
+
+                     <div class="flex text-lg font-bold">
+                         <div class="pr-3">
+                            <h3 class="text-lg">Total Expenses:</h3>
+                         </div>
+                         <div>
+                            <h4 class="text-lg">$ <span id="withdraw-total">00</span></h4>
+                         </div>
+                     </div>  
+
+                     <div class="flex text-lg font-bold">
+                         <div class="pr-3">
+                            <h3 class="text-lg">Balance:</h3>
+                         </div>
+                         <div>
+                            <h4 class="text-lg">$ <span id="withdraw-total">00</span></h4>
+                         </div>
+                     </div>  
+
+                     <div class="flex ">
+                         <div class="pr-3">
+                            <p class="text-lg">Save:</p>
+                         </div>
+                         <div>
+                            <input class="p-2 w-24 bg-gray-200" type="text" >
+                         </div>
+
+                         <div class="pl-3 pr-3">
+                            <p class="text-lg">%</p>
+                         </div>
+                         <div>
+                            <button class=" text-white font-semibold bg-[#59A5FF] py-2 px-7 rounded-lg">
+                                Save</button>
+                         </div>
+                     </div>   
+
+                     <div class="flex text-lg font-bold">
+                        <div class="pr-3">
+                           <h3 class="text-lg">Saving Amount</h3>
+                        </div>
+                        <div>
+                           <h4 class="text-lg">$ <span id="withdraw-total">00</span></h4>
+                        </div>
+                    </div>  
+                    <div class="flex text-lg font-bold">
+                        <div class="pr-3">
+                           <h3 class="text-lg">Remaining Balance</h3>
+                        </div>
+                        <div>
+                           <h4 class="text-lg">$ <span id="withdraw-total">00</span></h4>
+                        </div>
+                    </div>  
+    
+                </div>
+    
+    
+              </div>
         </section>
     </main>
 
